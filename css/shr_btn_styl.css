@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+}
+
+#shr_btn{
+    background-color: #D3D3D3;
+    height: 18px;
+    width: 85px;
+    float: right;
+    position: absolute;
+    left: 800px;
+    top: 5px;
+}
+
+#shr_btn ul{
+    list-style-type: none;
+
+}
+
+#shr_btn ul li{
+    float: left;
+}
+
+#shr_btn ul li a{
+    display: block;
+}
+
+#shr_btn ul li a img{
+    height: 15px;
+    width: 15px;
+    border: none;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+#shr_btn ul li a img:hover{
+    opacity: .5;
+}
+

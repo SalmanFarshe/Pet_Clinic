@@ -1,0 +1,316 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
+
+body{
+    background-color:#E9E9E9;
+    font:12px/18px Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.main_wrap{
+    width: 100%;
+}
+
+.wrap{
+    width: 950px;
+    margin: 0 auto;
+}
+
+#header{
+    overflow: hidden;
+}
+
+#header .logo_img{
+    float: left;
+}
+
+#header .header_cont{
+    float: right;
+    width: 700px;
+}
+
+#header .header_cont input{
+    float: left;
+    height: 30px;
+    width:300px;
+    border-radius: 25px;
+    border:none;
+    margin-top:40px;
+    margin-left: 160px;
+    padding-left: 10px;
+}
+
+#header .header_cont p{
+    float: right;
+}
+
+#header .header_cont .srch_box_p{
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+#header .header_cont .srch_box_p .contact_nomber{
+    color: orange;
+    font-size: 20px;
+}
+
+#menu{
+    position: absolute;
+    top: 100px;
+    left:350px;
+    font-size: 18px;
+}
+
+#menu li{
+    list-style-type: none;
+    float: left;
+}
+
+#menu li a{
+    color: rgb(109, 105, 105);
+    padding: 50px;
+}
+
+#menu li a:hover{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+}
+
+#menu li a:focus{
+    text-decoration: none;
+    color: black;
+}
+
+#box{
+
+}
+
+#box .box1{
+    transition: .5s all ease;
+    width: 170px;
+    margin-right: 25px;
+    float: left;
+    height: 180px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,#ff9900 10%,rgb(255, 255, 255) 30%);
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+#box .box1:hover{
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255) 10%,#FFC26A 30%);
+    color: #7b834d;
+    transition: .5s all ease;
+
+}
+
+#box .box1:hover .boxp1{
+    color: red;
+    transition: .5s all ease;
+
+}
+
+#box .box1:hover .box1_btn{
+    background-image: linear-gradient(to top,black,rgb(66, 60, 60));
+    transition: .5s all ease;
+
+}
+
+
+
+.boxp1{
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boxp2{
+    font-size: 13px;
+}
+
+
+
+.box1_btn{
+    padding: 8px 20px;
+    border: none;
+    background-image: linear-gradient(to bottom,#ff9100,yellow);
+    border-radius: 25px;
+    position: absolute;
+    top: 185px;
+    left: 100px;
+}
+
+
+.box1_btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.div1{
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+.div1 h2{
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.div1 ul{
+    list-style: none;
+}
+
+.div1 ul li{
+    padding-bottom: 10px;
+    border-bottom: 0.8px solid rgb(133, 128, 128);
+    border-top: 1.3px solid rgb(252, 252, 252);
+    padding-left: 5px;
+}
+
+
+.div1 ul li a:hover{
+    color: gray;
+}
+
+.div1 ul li:last-child{
+    border-bottom:none;
+}
+
+
+.div1 ul li:first-child{
+    border-top: none;
+}
+
+.div1 ul li a{
+    text-decoration: none;
+    color: #FFC26A;
+
+}
+
+
+.div2{
+    width: 170px;
+    margin-right: 40px;
+    float: left;
+    padding: 10px;
+    border-top: 1px solid rgb(95, 83, 83);
+    border-left: 1px solid rgb(95, 83, 83);
+    border-bottom: 1px solid rgb(253, 253, 253);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.div2 h2{
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.div2 p{
+    color: gray;
+}
+
+
+.div2 a{
+    float:right;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.div2 a:hover{
+    text-decoration: none;
+}
+
+.div3{
+    width: 450px;
+    float: left;
+}
+
+.div3 img{
+    float: left;
+    margin-right: 10px;
+}
+
+.div3 h2{
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.div3 p{
+
+}
+
+.div3_img_caption{
+
+}
+
+
+.same_content{
+    width: 950px;
+    height: 350px;
+    overflow: hidden;
+
+}
+
+.same_content ol{
+    margin-top: 60px;
+}
+
+.same_content ol li{
+    font-size: 35px;
+    color: #454545;;
+    width: 265px;
+    margin-right: 50px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.font_13px{
+    font-size: 13px;
+    margin-top: 25px;
+    color: gray;
+}
+
+.same_content ol li a{
+    text-decoration: none;
+    color: orange;
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    left: 35px;
+    top: 5px;
+}
+
+
+.same_content ol li a:hover{
+    color:#454545;
+}
+
+
+footer .p1{
+    float: left;
+    color: gray;
+}
+
+footer p{
+    color: gray;
+}
+
+footer a{
+    color: gray;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
